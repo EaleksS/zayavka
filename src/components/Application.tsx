@@ -36,7 +36,7 @@ const Application: FC = (): JSX.Element => {
   return (
     <div className={styles.container}>
       <h1>
-        Оставьте заявку на получение планировок, фотографий и спецпредложений в
+        заявка на whatsapp
         <br />
         <span> ЖК АТЛАНТИС</span>
       </h1>
