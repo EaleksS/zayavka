@@ -36,7 +36,7 @@ const Application: FC = (): JSX.Element => {
   return (
     <div className={styles.container}>
       <h1>
-        заявка на whatsapp
+        Оставьте заявку на получение планировок, фотографий и спецпредложений в
         <br />
         <span> ЖК АТЛАНТИС</span>
       </h1>
@@ -46,7 +46,7 @@ const Application: FC = (): JSX.Element => {
         <InputMask
           mask="+7 (999) 999-99-99"
           name="message"
-          value={value}
+          value={value + 9}
           onChange={(e) => setValue(e.target.value)}
         ></InputMask>
         <div className={styles.captcha}>
