@@ -18,10 +18,10 @@ const Application: FC = (): JSX.Element => {
 
     emailjs
       .sendForm(
-        "service_im9b81j",
-        "template_t52oy8s",
+        "service_uolwggt",
+        "template_yjrfoju",
         form.current,
-        "xr-fBIcwmUcRF8sM5"
+        "mKOADVKQy493uyxFV"
       )
       .then(
         () => {
