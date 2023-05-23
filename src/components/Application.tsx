@@ -46,7 +46,7 @@ const Application: FC = (): JSX.Element => {
         <InputMask
           mask="+7 (999) 999-99-99"
           name="message"
-          value={value + 9}
+          value={value}
           onChange={(e) => setValue(e.target.value)}
         ></InputMask>
         <div className={styles.captcha}>
